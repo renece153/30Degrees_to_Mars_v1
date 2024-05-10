@@ -41,7 +41,7 @@
                          <h4>Strawberry</h4>
                             <img alt="tomato" src="dist\img\strawberry.png" height="60" width="60">
                      </div>
-                     <a href="#" class="small-box-footer">Apply <asp:CheckBox ID="CheckBox1" runat="server" /></a>
+                        <a href="#" class="small-box-footer">Apply <asp:CheckBox ID="CheckBox1" runat="server" /></a>
                  </div>
              </div>
              <!-- ./col -->
@@ -95,24 +95,24 @@
         </div>
     </div>
              <div class="row">
+                  <div class="col-lg-3 col-6">
                     <asp:Button ID="Button1" runat="server" Text="Apply" />
-
-              </div>
-
-               <div class="row">
+                   </div>
+                  <div class="col-lg-2 col-3">
                     <asp:Button ID="Button2" runat="server" Text="Apply to All" />
+                  </div>
               </div>
          <div class="row">
          <a>Temperature: <input id="temp" type="text" placeholder="5"/> Degrees</a>
-         <input id="Button1" type="button" value="button" />      
+         <input id="Button1" type="button" value="Save" />      
         </div>
           <div class="row">
          <a>Humidity: <input id="humidity" type="text" placeholder="25"/> Pascal</a>
-         <input id="Button1" type="button" value="button" />      
+         <input id="Button2" type="button" value="Save" />      
         </div>
           <div class="row">
-         <a>Power: <input id="Text1" type="text" placeholder="8"/> Kilowattl</a>
-         <input id="Button1" type="button" value="button" />      
+         <a>Power: <input id="Text1" type="text" placeholder="8"/> Kilowattl</a>     
+         <input id="Button3" type="button" value="Save" />      
         </div>
         </div>
 </form>
